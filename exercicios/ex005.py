@@ -1,4 +1,2 @@
 n = int(input('Digite um número: '))
-ant = n - 1
-suc = n + 1
-print('O antecessor de {} é {}, e o sucessor de {} é {}!'.format(n, ant, n, suc))
+print('O antecessor de {} é {}, e o sucessor de {} é {}!'.format(n, (n-1), n, (n+1)))

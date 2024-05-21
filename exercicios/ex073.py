@@ -1,0 +1,5 @@
+times = ('Athletico-PR', 'Bahia', 'Flamengo', 'Botafogo', 'São Paulo', 'Cruzeiro', 'Atlético-MG', 'Bragantino', 'Palmeiras', 'Internacional', 'Fortaleza', 'Grêmio', 'Vasco', 'Criciúma', 'Juventude', 'Corinthians', 'Fluminense', 'EC Vitória', 'Atlético-GO', 'Cuiabá')
+print(f'Os 5 primeiros colocados do Brasileirão são: {times[:5]}')
+print(f'Os últimos 4 colocados do campeonato são: {times[-4:]}')
+print(f'Em ordem alfabética: {sorted(times)}')
+print(f'O time do Bragantino se encontra na posição {times.index('Bragantino') + 1}')
